@@ -1,0 +1,19 @@
+{
+  "name": "wtr-import-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server src/ --node-resolve --watch"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.10",
+    "@web/dev-server-esbuild": "^0.2.11"
+  },
+  "dependencies": {
+    "nodemod": "^2.7.2"
+  }
+}
